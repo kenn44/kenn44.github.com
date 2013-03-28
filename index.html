@@ -2,11 +2,13 @@
 layout: home
 ---
             {% for post in site.posts %}
-              <div class="span12">
+            <div class = "row_fluid">
+              <div class="hero-unit">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p>
                   {{ post.content }}
                 </p>
                 <p><a class="btn" href="{{ post.url }}">View details »</a></p>
               </div><!--/span-->
+          </div>
             {% endfor %}
