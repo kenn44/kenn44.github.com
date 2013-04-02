@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : [misc]
+tags: [misc]
 ---
 
 Practical cats, dramatical cats
